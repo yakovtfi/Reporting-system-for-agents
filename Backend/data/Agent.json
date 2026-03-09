@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "1",
+    "agentCode": "ADMIN-1",
+    "fullName": "Admin",
+    "passwordHash": "admin123",
+    "role": "admin",
+    "createdAt": "2026-03-08T00:00:00.000Z"
+  },
+  {
+    "id": "dcb7238d-2647-4933-a01c-44a25aefba7f",
+    "agentCode": "A-1002",
+    "fullName": "yakov",
+    "passwordHash": "password",
+    "role": "agent",
+    "createdAt": "2026-03-08T15:38:09.314Z"
+  },
+  {
+    "id": "a82ad81d-be3a-499e-9f3b-4eee56afec0b",
+    "agentCode": "A-1003",
+    "fullName": "yossi",
+    "passwordHash": "8080808",
+    "role": "agent",
+    "createdAt": "2026-03-08T15:40:31.316Z"
+  }
+]

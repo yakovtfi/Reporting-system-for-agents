@@ -7,9 +7,10 @@ export const createUser = async (input)=>{
     const users = await readUsers();
     const exists = users.some((user)=> user.agentCode === input.agentCode);
     if(exists){
-        throw new Error("Agemt code exists");
+        throw new Error("AGENT_CODE_EXISTS");
     }
-    const initialPassword = (input.password || "".trim() || atbash(input.fullName));
+    const providedPassword = (input.password ?? "").trim();
+    const initialPassword = providedPassword || atbash((input.fullName ?? "").trim());
     const user = {
         id : randomUUID(),
         agentCode: input.agentCode,
@@ -20,7 +21,7 @@ export const createUser = async (input)=>{
     };
     const updated = [...users, user];
     await writeUsers(updated);
-    return {user, initialPassword: initialPassword};
+    return {user, initialPasswordHint: initialPassword};
 };
 
 export const listUsers = async () => readUsers();

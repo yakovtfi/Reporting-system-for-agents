@@ -1,8 +1,8 @@
 import {randomUUID} from 'crypto';
 import { readReports, writeReports } from './dataSrore.js';
 
-const allowedCategories = ["intelligence", "logistics", "alert"];
-const allowedUrgencies = ["low", "medium", "high"];
+export const allowedCategories = ["intelligence", "logistics", "alert"];
+export const allowedUrgencies = ["low", "medium", "high"];
 
 export const createReport = async (input) => {
   const reports = await readReports();
