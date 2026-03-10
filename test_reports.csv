@@ -1,0 +1,8 @@
+category,urgency,message
+intelligence,high,Intel report on suspicious activity
+intelligence,medium,Recon update from field agent
+logistics,low,Supply shipment arrived at depot
+logistics,medium,Vehicle maintenance required
+alert,high,Perimeter breach detected
+alert,medium,Unusual network traffic observed
+alert,low,Minor system warning logged

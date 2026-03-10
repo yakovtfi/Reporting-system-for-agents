@@ -1,1 +1,162 @@
-[]
+[
+  {
+    "id": "8a55878a-84d9-416d-87a9-98e3179d3cec",
+    "userId": "dcb7238d-2647-4933-a01c-44a25aefba7f",
+    "category": "intelligence",
+    "urgency": "high",
+    "message": "Intel report on suspicious activity",
+    "imagePath": null,
+    "sourceType": "csv",
+    "createdAt": "2026-03-09T14:52:56.523Z"
+  },
+  {
+    "id": "ca572bdd-e681-4074-8aa2-9e12cd965c79",
+    "userId": "dcb7238d-2647-4933-a01c-44a25aefba7f",
+    "category": "intelligence",
+    "urgency": "medium",
+    "message": "Recon update from field agent",
+    "imagePath": null,
+    "sourceType": "csv",
+    "createdAt": "2026-03-09T14:52:56.524Z"
+  },
+  {
+    "id": "112e602e-c01a-4a08-8eb5-84bd41286fce",
+    "userId": "dcb7238d-2647-4933-a01c-44a25aefba7f",
+    "category": "logistics",
+    "urgency": "low",
+    "message": "Supply shipment arrived at depot",
+    "imagePath": null,
+    "sourceType": "csv",
+    "createdAt": "2026-03-09T14:52:56.524Z"
+  },
+  {
+    "id": "40e04c68-89f9-46ea-871c-78531b72064a",
+    "userId": "dcb7238d-2647-4933-a01c-44a25aefba7f",
+    "category": "logistics",
+    "urgency": "medium",
+    "message": "Vehicle maintenance required",
+    "imagePath": null,
+    "sourceType": "csv",
+    "createdAt": "2026-03-09T14:52:56.524Z"
+  },
+  {
+    "id": "8ac3a7c9-d290-404f-b04e-1fa39a834d1b",
+    "userId": "dcb7238d-2647-4933-a01c-44a25aefba7f",
+    "category": "alert",
+    "urgency": "high",
+    "message": "Perimeter breach detected",
+    "imagePath": null,
+    "sourceType": "csv",
+    "createdAt": "2026-03-09T14:52:56.525Z"
+  },
+  {
+    "id": "d0cf4e9e-cacd-497c-a697-ff3fd6e34fb0",
+    "userId": "dcb7238d-2647-4933-a01c-44a25aefba7f",
+    "category": "alert",
+    "urgency": "medium",
+    "message": "Unusual network traffic observed",
+    "imagePath": null,
+    "sourceType": "csv",
+    "createdAt": "2026-03-09T14:52:56.525Z"
+  },
+  {
+    "id": "81eb6ec7-1a59-4686-a297-9becaf5a9e9e",
+    "userId": "dcb7238d-2647-4933-a01c-44a25aefba7f",
+    "category": "alert",
+    "urgency": "low",
+    "message": "Minor system warning logged",
+    "imagePath": null,
+    "sourceType": "csv",
+    "createdAt": "2026-03-09T14:52:56.525Z"
+  },
+  {
+    "id": "07efeac6-73d5-42e6-be35-5c5025b796a1",
+    "userId": "dcb7238d-2647-4933-a01c-44a25aefba7f",
+    "category": "intelligence",
+    "urgency": "low",
+    "message": "חמחחנחנ",
+    "imagePath": null,
+    "sourceType": "form",
+    "createdAt": "2026-03-09T14:54:35.342Z"
+  },
+  {
+    "id": "cb7d1cde-5410-46f8-9cb6-16e62ac842b4",
+    "userId": "dcb7238d-2647-4933-a01c-44a25aefba7f",
+    "category": "intelligence",
+    "urgency": "high",
+    "message": "Intel report on suspicious activity",
+    "imagePath": null,
+    "sourceType": "csv",
+    "createdAt": "2026-03-09T15:06:46.932Z"
+  },
+  {
+    "id": "b132a315-3a30-4972-8552-e0669f8b6d14",
+    "userId": "dcb7238d-2647-4933-a01c-44a25aefba7f",
+    "category": "intelligence",
+    "urgency": "medium",
+    "message": "Recon update from field agent",
+    "imagePath": null,
+    "sourceType": "csv",
+    "createdAt": "2026-03-09T15:06:46.933Z"
+  },
+  {
+    "id": "460b77d6-0dcc-47d2-bb61-18518386c880",
+    "userId": "dcb7238d-2647-4933-a01c-44a25aefba7f",
+    "category": "logistics",
+    "urgency": "low",
+    "message": "Supply shipment arrived at depot",
+    "imagePath": null,
+    "sourceType": "csv",
+    "createdAt": "2026-03-09T15:06:46.933Z"
+  },
+  {
+    "id": "251fe735-3fe9-4ee6-857a-776fd18919bc",
+    "userId": "dcb7238d-2647-4933-a01c-44a25aefba7f",
+    "category": "logistics",
+    "urgency": "medium",
+    "message": "Vehicle maintenance required",
+    "imagePath": null,
+    "sourceType": "csv",
+    "createdAt": "2026-03-09T15:06:46.933Z"
+  },
+  {
+    "id": "c11c5a6c-b423-481a-ab5b-4acfc848a70c",
+    "userId": "dcb7238d-2647-4933-a01c-44a25aefba7f",
+    "category": "alert",
+    "urgency": "high",
+    "message": "Perimeter breach detected",
+    "imagePath": null,
+    "sourceType": "csv",
+    "createdAt": "2026-03-09T15:06:46.934Z"
+  },
+  {
+    "id": "a2e63018-1afe-48e0-ab24-91774d418717",
+    "userId": "dcb7238d-2647-4933-a01c-44a25aefba7f",
+    "category": "alert",
+    "urgency": "medium",
+    "message": "Unusual network traffic observed",
+    "imagePath": null,
+    "sourceType": "csv",
+    "createdAt": "2026-03-09T15:06:46.934Z"
+  },
+  {
+    "id": "cf7f36b4-0670-4ff8-9ddc-0a9173ec8433",
+    "userId": "dcb7238d-2647-4933-a01c-44a25aefba7f",
+    "category": "alert",
+    "urgency": "low",
+    "message": "Minor system warning logged",
+    "imagePath": null,
+    "sourceType": "csv",
+    "createdAt": "2026-03-09T15:06:46.934Z"
+  },
+  {
+    "id": "c1d8396b-2f7d-48af-92ef-5738807835ad",
+    "userId": "dcb7238d-2647-4933-a01c-44a25aefba7f",
+    "category": "logistics",
+    "urgency": "high",
+    "message": "hiii",
+    "imagePath": "/uploads/0e864f8f176e6f9c24e263d4267ce384",
+    "sourceType": "form",
+    "createdAt": "2026-03-09T15:33:11.010Z"
+  }
+]

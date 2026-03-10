@@ -3,7 +3,7 @@ import type { ReactNode } from "react";
 import { create } from "zustand";
 import api from "../services/api";
 
-export type Role = "admin" | "agent" ;
+export type Role = "admin" | "agent";
 
 export interface User {
   id: string;
@@ -16,7 +16,7 @@ interface AuthState {
   user: User | null;
   token: string | null;
   loading: boolean;
-  login: (agentCode: string, password: string) => Promise<void>;
+  login: (agentCode: string, password: string) => Promise<User>;
   logout: () => void;
   init: () => Promise<void>;
 }
@@ -29,6 +29,7 @@ const useAuthStore = create<AuthState>((set, get) => ({
     const { data } = await api.post("/auth/login", { agentCode, password });
     localStorage.setItem("token", data.token);
     set({ token: data.token, user: data.user });
+    return data.user;
   },
   logout: () => {
     localStorage.removeItem("token");
