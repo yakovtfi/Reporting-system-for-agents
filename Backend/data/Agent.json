@@ -22,5 +22,29 @@
     "passwordHash": "8080808",
     "role": "agent",
     "createdAt": "2026-03-08T15:40:31.316Z"
+  },
+  {
+    "id": "2177ac71-704c-4ba8-86c4-c471f31d07c8",
+    "agentCode": "meir-007",
+    "fullName": "meir",
+    "passwordHash": "nvri",
+    "role": "admin",
+    "createdAt": "2026-03-10T13:42:34.584Z"
+  },
+  {
+    "id": "028b722d-27ab-404c-b64f-f44cf22f940f",
+    "agentCode": "0000",
+    "fullName": "0000",
+    "passwordHash": "0000",
+    "role": "agent",
+    "createdAt": "2026-03-10T13:43:16.790Z"
+  },
+  {
+    "id": "f72c8931-19dc-4ec8-b883-410f7a60343c",
+    "agentCode": "0001",
+    "fullName": "yakovtfi",
+    "passwordHash": "bzplegur",
+    "role": "agent",
+    "createdAt": "2026-03-10T13:44:46.589Z"
   }
 ]

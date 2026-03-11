@@ -9,6 +9,7 @@ interface Report {
   urgency: string;
   message: string;
   createdAt: string;
+  imagePath: string;
 }
 
 const AdminReportsPage: React.FC = () => {
@@ -61,18 +62,18 @@ const AdminReportsPage: React.FC = () => {
             onChange={(e) => setCategory(e.target.value)}
           >
             <option value="">All</option>
-            <option value="low">Low</option>
-            <option value="medium">Medium</option>
-            <option value="high">High</option>
+            <option value="intelligence">Intelligence</option>
+            <option value="logistics">Logistics</option>
+            <option value="alert">Alert</option>
           </select>
         </label>
         <label>
           Urgency
           <select value={urgency} onChange={(e) => setUrgency(e.target.value)}>
             <option value="">All</option>
-            <option value="intelligence">Intelligence</option>
-            <option value="logistics">Logistics</option>
-            <option value="alert">Alert</option>
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
           </select>
         </label>
         {status && <div className="status">{status}</div>}
@@ -87,6 +88,7 @@ const AdminReportsPage: React.FC = () => {
             <th>Urgency</th>
             <th>Date</th>
             <th>Message</th>
+            <th>image</th>
           </tr>
         </thead>
         <tbody>
@@ -97,6 +99,15 @@ const AdminReportsPage: React.FC = () => {
             <td>{report.urgency}</td>
             <td>{new Date(report.createdAt).toLocaleString()}</td>
             <td>{report.message}</td>
+            <td>
+                {report.imagePath ? (
+                  <a href={`${api.defaults.baseURL}${report.imagePath}`} target="_blank" rel="noreferrer">
+                    <img src={`${api.defaults.baseURL}${report.imagePath}`} alt="report" />
+                  </a>
+                ) : (
+                  <span>—</span>
+                )}
+              </td>
           </tr>
         ))}
         {reports.length === 0 && (

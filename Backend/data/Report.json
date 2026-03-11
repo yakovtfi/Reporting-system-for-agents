@@ -158,5 +158,105 @@
     "imagePath": "/uploads/0e864f8f176e6f9c24e263d4267ce384",
     "sourceType": "form",
     "createdAt": "2026-03-09T15:33:11.010Z"
+  },
+  {
+    "id": "9fb7651a-66ac-46e3-be3d-ab2204ce3e6a",
+    "userId": "dcb7238d-2647-4933-a01c-44a25aefba7f",
+    "category": "intelligence",
+    "urgency": "high",
+    "message": "Intel report on suspicious activity",
+    "imagePath": null,
+    "sourceType": "csv",
+    "createdAt": "2026-03-10T13:39:32.811Z"
+  },
+  {
+    "id": "02bdbb54-bc3d-4407-aa69-7606d8f43002",
+    "userId": "dcb7238d-2647-4933-a01c-44a25aefba7f",
+    "category": "intelligence",
+    "urgency": "medium",
+    "message": "Recon update from field agent",
+    "imagePath": null,
+    "sourceType": "csv",
+    "createdAt": "2026-03-10T13:39:32.813Z"
+  },
+  {
+    "id": "88be78ae-90d6-41c9-8ad5-f13bccd85cf7",
+    "userId": "dcb7238d-2647-4933-a01c-44a25aefba7f",
+    "category": "logistics",
+    "urgency": "low",
+    "message": "Supply shipment arrived at depot",
+    "imagePath": null,
+    "sourceType": "csv",
+    "createdAt": "2026-03-10T13:39:32.813Z"
+  },
+  {
+    "id": "bb760c1b-4268-4ecc-b04f-909c0c55e34a",
+    "userId": "dcb7238d-2647-4933-a01c-44a25aefba7f",
+    "category": "logistics",
+    "urgency": "medium",
+    "message": "Vehicle maintenance required",
+    "imagePath": null,
+    "sourceType": "csv",
+    "createdAt": "2026-03-10T13:39:32.814Z"
+  },
+  {
+    "id": "e343c3cc-de2d-4468-8a43-0c0c94cf4463",
+    "userId": "dcb7238d-2647-4933-a01c-44a25aefba7f",
+    "category": "alert",
+    "urgency": "high",
+    "message": "Perimeter breach detected",
+    "imagePath": null,
+    "sourceType": "csv",
+    "createdAt": "2026-03-10T13:39:32.814Z"
+  },
+  {
+    "id": "33a3c554-363c-48d3-a94a-4d9fa4d0f475",
+    "userId": "dcb7238d-2647-4933-a01c-44a25aefba7f",
+    "category": "alert",
+    "urgency": "medium",
+    "message": "Unusual network traffic observed",
+    "imagePath": null,
+    "sourceType": "csv",
+    "createdAt": "2026-03-10T13:39:32.814Z"
+  },
+  {
+    "id": "5ffbdd56-9c23-4eb8-9132-4d9a5b3b6bfc",
+    "userId": "dcb7238d-2647-4933-a01c-44a25aefba7f",
+    "category": "alert",
+    "urgency": "low",
+    "message": "Minor system warning logged",
+    "imagePath": null,
+    "sourceType": "csv",
+    "createdAt": "2026-03-10T13:39:32.815Z"
+  },
+  {
+    "id": "370d473c-8df3-4467-8ca6-07d0e9086336",
+    "userId": "dcb7238d-2647-4933-a01c-44a25aefba7f",
+    "category": "intelligence",
+    "urgency": "low",
+    "message": "hjhjhj",
+    "imagePath": "/uploads/2160b62142e136471468a81e075e7fd1",
+    "sourceType": "form",
+    "createdAt": "2026-03-10T13:40:05.304Z"
+  },
+  {
+    "id": "c0d3ca80-95bc-4a25-bc34-06f5cdb875d3",
+    "userId": "028b722d-27ab-404c-b64f-f44cf22f940f",
+    "category": "intelligence",
+    "urgency": "low",
+    "message": "hello world",
+    "imagePath": "/uploads/025f750c229e68d7053f920702eab2ed",
+    "sourceType": "form",
+    "createdAt": "2026-03-11T08:30:11.505Z"
+  },
+  {
+    "id": "d6594799-eeae-446c-9fef-ed1cb41a2de1",
+    "userId": "028b722d-27ab-404c-b64f-f44cf22f940f",
+    "category": "intelligence",
+    "urgency": "low",
+    "message": "yakov",
+    "imagePath": "/uploads/ecf682c73987f8f9aa2f6d77adc99985",
+    "sourceType": "form",
+    "createdAt": "2026-03-11T08:44:26.934Z"
   }
 ]

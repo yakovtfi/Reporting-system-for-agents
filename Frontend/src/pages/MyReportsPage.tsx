@@ -8,6 +8,7 @@ interface Report {
   category: string;
   urgency: string;
   message: string;
+  imagePath: string,
   createdAt: string;
 }
 
@@ -40,6 +41,7 @@ const MyReportsPage: React.FC = () => {
             <th>Urgency</th>
             <th>Date</th>
             <th>Message</th>
+            <th>image</th>
           </tr>
         </thead>
         <tbody>
@@ -50,6 +52,15 @@ const MyReportsPage: React.FC = () => {
               <td>{report.urgency}</td>
               <td>{new Date(report.createdAt).toLocaleString()}</td>
               <td>{report.message}</td>
+             <td>
+                {report.imagePath ? (
+                  <a href={`${api.defaults.baseURL}${report.imagePath}`} target="_blank" rel="noreferrer">
+                    <img src={`${api.defaults.baseURL}${report.imagePath}`} alt="report" />
+                  </a>
+                ) : (
+                  <span>—</span>
+                )}
+              </td>
             </tr>
           ))}
           {reports.length === 0 && (
