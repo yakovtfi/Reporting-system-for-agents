@@ -1,6 +1,8 @@
 import jwt from 'jsonwebtoken';
-import dotenv from 'dotenv/config'
+import dotenv from 'dotenv'
 import { readUsers } from './dataSrore.js';
+
+dotenv.config();
 
 const JWT_SECRET = process.env.JWT_SECRET || "78787878yuyuuyu67545";
 
